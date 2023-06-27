@@ -8,6 +8,7 @@ import PokeCard from './Components/PokeCard';
 const App = () => {
   const [pokemonData, setPokemonData] = useState([]);
 
+<<<<<<< HEAD
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -21,6 +22,15 @@ const App = () => {
 
     fetchData();
   }, []);
+=======
+  // const [allPokes, setAllPokes] = useState([])
+
+  // useEffect(() => {
+  //   fetch('http://localhost:3001/pokemon')
+  //     .then((r) => r.json())
+  //     .then((allPokes) => console.log(allPokes))
+  // }, []);
+>>>>>>> e8df88d6941eabc748cd634f9b5039d45fe5bf7a
 
   return (
     <div className="App">

@@ -4,13 +4,13 @@ import Header from './Components/Header';
 
 function App() {
 
-  // const [allPokemons, setAllPokemons] = useState([])
+  // const [allPokes, setAllPokes] = useState([])
 
   // useEffect(() => {
   //   fetch('http://localhost:3001/pokemon')
   //     .then((r) => r.json())
-  //     .then((allPokemons) => console.log(allPokemons))
-  // }, [])
+  //     .then((allPokes) => console.log(allPokes))
+  // }, []);
 
   return (
     <div className="App">

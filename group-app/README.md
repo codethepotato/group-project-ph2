@@ -91,7 +91,7 @@ a `json-server` to create a RESTful API for our database.
 
 1. You must make a single page application (only one `index.html` file) using `create-react-app`.
 2. Your app should use at lease 5 components in a way that keeps your code well organized. 
-3. There should be at least 3 client-side routes using React Router. Be sure to incle a nav bar or other UI element that allows users to navigate between routes. 
+3. There should be at least 3 client-side routes using React Router. Be sure to include a nav bar or other UI element that allows users to navigate between routes. 
     - Use RESTful routing conventions where applicable.
     
             Route Name	  URL	            HTTP Verb	    Description

@@ -1,8 +1,10 @@
-function PokeCard(){
+function PokeCard() {
     return (
-        <div>
-
-        </div>
+        <Card>
+            <div>
+                <h3>Pokemon Name</h3>
+            </div>
+        </Card>
     )
 }
 

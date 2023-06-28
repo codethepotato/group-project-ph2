@@ -1,31 +1,29 @@
-//import logo from './logo.svg';
-
+import React from 'react'
+import { useState, useEffect } from 'react';
 import './App.css';
 import Header from './Components/Header';
-import React, { useState, useEffect } from 'react';
-//import PokeCard from './Components/PokeCard';
+import PokePage from "./Components/PokePage";
+import PokeForm from './Components/PokeForm';
+import Search from './Components/Search';
+import RandomButton from './Components/RandomButton';
 
 const App = () => {
-  const [ pokemonsArray, setPokemonsArray ] = useState( [] )
 
-  const addPokemon = newPokemon => {
-    const theNewArray = [ newPokemon, ...pokemonsArray ]
-    setPokemonsArray( theNewArray )
-  } 
+  const [allPokes, setAllPokes] = useState([])
 
-  useEffect( () => {
-    fetch( 'http://localhost:3000/pokemon' )
-      .then( r => r.text() )
-      .then( pokemonsFromFetch => {
-        console.log(pokemonsFromFetch)
-      } )
-  }, [] )
-
- 
+  useEffect(() => {
+    fetch('http://localhost:3000/pokemon')
+      .then((r) => r.json())
+      .then(allPokes => setAllPokes(allPokes))
+  }, []);
 
   return (
     <div>
       <Header />
+      <PokePage pokes = {allPokes}/>
+      <PokeForm />
+      <Search />
+      <RandomButton />
     </div>
   );
 }

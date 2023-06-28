@@ -1,18 +1,16 @@
 import React from "react";
 import PokeCard from "./PokeCard";
-import { Card } from "semantic-ui-react";
+import {Card} from 'semantic-ui-react';
 
-function PokePage({pokemon}) {
-    const pokemonComponents = pokemon.map(pokemonObject => {
-        return <PokeCard key={pokemonObject.id} pokemon={pokemonObject} />
+function PokePage({ pokemons }) {
+    const allOfEm = pokemons.map(pokeObj => {
+        return <PokeCard key={pokemons.id} pokemon={pokeObj} />
     })
-
     return (
-        <div>
-            <Card.Group itemsPerRow={6}>
-                {pokemonComponents}
-            </Card.Group>
-        </div>
+        <Card.Group itemsPerRow={6}>
+            <h1>Gotta Catch Em All </h1>
+            {allOfEm}
+        </Card.Group>
     )
 }
 

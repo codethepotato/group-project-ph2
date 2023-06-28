@@ -4,7 +4,7 @@ import {Card} from 'semantic-ui-react';
 
 function PokePage({ pokemons }) {
     const allOfEm = pokemons.map(pokeObj => {
-        return <PokeCard key={pokemons.id} pokemon={pokeObj} />
+        return <PokeCard key={pokeObj.id} pokemon={pokeObj} />
     })
     return (
         <Card.Group itemsPerRow={6}>

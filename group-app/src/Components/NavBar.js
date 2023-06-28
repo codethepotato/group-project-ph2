@@ -1,4 +1,5 @@
-
+import React from "react";
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     function handleLinkClick(e) {
@@ -7,9 +8,21 @@ function NavBar() {
     }
     return (
         <nav>
-            {/* <Link onClick={handleLinkClick} href='/'>Home</Link>
-            <Link onClick={handleLinkClick} href='/PokePage'>Poke Page</Link>
-            <Link onClick={handleLinkClick} href='/RandomButton'>Random Button</Link> */}
+            <ul>
+                <li>
+                    <NavLink to='/Home'></NavLink>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <NavLink to='/PokePage'></NavLink>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <NavLink to='/RandomButton'></NavLink>
+                </li>
+            </ul>
         </nav>
     )
 }

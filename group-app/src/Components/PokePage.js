@@ -1,8 +1,8 @@
+// import PokeCard from "./PokeCard";
+
 function PokePage(){
     return(
-        <div>
-
-        </div>
+        <div></div>
     )
 }
 

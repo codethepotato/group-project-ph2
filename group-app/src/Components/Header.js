@@ -11,10 +11,10 @@ function Header() {
                     <span class="fs-4">Poke-Dexer</span>
                 </a>
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li className="nav-item"><Link   aria-current="page">Home</Link></li>
+                    <li className="nav-item"><Link >Features</Link></li>
+                    <li className="nav-item"><Link>FAQs</Link></li>
+                    <li className="nav-item"><Link >About</Link></li>
                 </ul>
             </header>
         </div>

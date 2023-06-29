@@ -7,8 +7,8 @@
       "type": "grass",
       "secondary type": "poison",
       "sprites": {
-        "front": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vhv.rs%2Fviewpic%2FwhxJJi_bulbasaur-png-image-with-transparent-background-bulbasaur-sprite%2F&psig=AOvVaw1vorbzc10rDhNvxjL5Lp8o&ust=1687876672139000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKjKl8yV4f8CFQAAAAAdAAAAABAI",
-        "back": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fpclaydon%2Fart%2FIvybulba-Back-618322779&psig=AOvVaw3PEvAO0Yi2IKOlddv1PKeC&ust=1687876723579000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIjojZGV4f8CFQAAAAAdAAAAABAD"
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
       }
     },
     {
@@ -1573,8 +1573,8 @@
       "hp": 100,
       "type": "psychic",
       "sprites": {
-        "front": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki.p-insurgence.com%2FMew_%2528Pok%25C3%25A9mon%2529&psig=AOvVaw1x2VqumtIR_Ah0RNif7USr&ust=1687877080746000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjTlKGW4f8CFQAAAAAdAAAAABAD",
-        "back": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbulbapedia.bulbagarden.net%2Fwiki%2FMew_%2528Pok%25C3%25A9mon%2529&psig=AOvVaw0mSyUlNVKuh0IW_YVTJJot&ust=1687877102469000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDVvqyW4f8CFQAAAAAdAAAAABAD"
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
       }
     }
   ]

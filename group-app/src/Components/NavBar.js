@@ -6,17 +6,17 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <NavLink to='/PokeForm'></NavLink>
+                    <NavLink to='/PokeForm'>Poke-Form</NavLink>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <NavLink to='/PokePage'></NavLink>
+                    <NavLink to='/PokePage'>Poke-Page</NavLink>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <NavLink to='/RandomButton'></NavLink>
+                    <NavLink to='/RandomButton'>Random Button</NavLink>
                 </li>
             </ul>
         </nav>

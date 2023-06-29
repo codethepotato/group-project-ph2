@@ -1,7 +1,7 @@
 function RandomButton(){
     return(
         <div>
-
+            <button>Random Catch!</button>
         </div>
     )
 }

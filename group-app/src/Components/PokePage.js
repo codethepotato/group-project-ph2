@@ -2,6 +2,8 @@ import React from "react";
 import PokeCard from "./PokeCard";
 import {Card} from 'semantic-ui-react';
 
+const src = '/images/wireframe/image.png'
+
 function PokePage({ pokemons }) {
     const allOfEm = pokemons.map(pokeObj => {
         return <PokeCard key={pokeObj.id} pokemon={pokeObj} />
@@ -15,3 +17,4 @@ function PokePage({ pokemons }) {
 }
 
 export default PokePage;
+

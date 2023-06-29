@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 
 import Header from './Components/Header';
@@ -24,20 +24,18 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <NavBar />
-      <Switch>
-        <Route path='/PokeForm'>
-          <PokeForm />
-        </Route>
-        <Route path='/PokePage'>
-          <PokePage pokemons={allPokes} />
-        </Route>
-        <Route path='/RandomButton'>
-          <RandomButton />
-        </Route>
-      </Switch>
-
+      <BrowserRouter>
+        <Header />
+        <NavBar />
+        <Switch>
+          <Route path='/PokeForm' element={<PokeForm />}>
+          </Route>
+          <Route path='/PokePage' element={<PokePage pokemons={allPokes} />}>
+          </Route>
+          <Route path='/RandomButton' element={<RandomButton />}>
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

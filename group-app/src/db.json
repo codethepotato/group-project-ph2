@@ -5,7 +5,7 @@
       "name": "bulbasaur",
       "hp": 45,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
@@ -16,7 +16,7 @@
       "name": "ivysaur",
       "hp": 60,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
@@ -27,7 +27,7 @@
       "name": "venusaur",
       "hp": 80,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png"
@@ -58,7 +58,7 @@
       "name": "charizard",
       "hp": 78,
       "type": "fire",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
@@ -119,7 +119,7 @@
       "name": "butterfree",
       "hp": 60,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
@@ -130,7 +130,7 @@
       "name": "weedle",
       "hp": 40,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png"
@@ -141,7 +141,7 @@
       "name": "kakuna",
       "hp": 45,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png"
@@ -152,7 +152,7 @@
       "name": "beedrill",
       "hp": 65,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png"
@@ -163,7 +163,7 @@
       "name": "pidgey",
       "hp": 40,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png"
@@ -174,7 +174,7 @@
       "name": "pidgeotto",
       "hp": 63,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png"
@@ -185,7 +185,7 @@
       "name": "pidgeot",
       "hp": 83,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png"
@@ -216,7 +216,7 @@
       "name": "spearow",
       "hp": 40,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png"
@@ -227,7 +227,7 @@
       "name": "fearow",
       "hp": 65,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png"
@@ -318,7 +318,7 @@
       "name": "nidoqueen",
       "hp": 90,
       "type": "poison",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png"
@@ -349,7 +349,7 @@
       "name": "nidoking",
       "hp": 81,
       "type": "poison",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png"
@@ -400,7 +400,7 @@
       "name": "jigglypuff",
       "hp": 115,
       "type": "normal",
-      "secondary type": "fairy",
+      "secondary": "fairy",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/39.png"
@@ -411,7 +411,7 @@
       "name": "wigglytuff",
       "hp": 140,
       "type": "normal",
-      "secondary type": "fairy",
+      "secondary": "fairy",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/40.png"
@@ -422,7 +422,7 @@
       "name": "zubat",
       "hp": 40,
       "type": "poison",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png"
@@ -433,7 +433,7 @@
       "name": "golbat",
       "hp": 75,
       "type": "poison",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/42.png"
@@ -444,7 +444,7 @@
       "name": "oddish",
       "hp": 45,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/43.png"
@@ -455,7 +455,7 @@
       "name": "gloom",
       "hp": 60,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/44.png"
@@ -466,7 +466,7 @@
       "name": "vileplume",
       "hp": 75,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png"
@@ -477,7 +477,7 @@
       "name": "paras",
       "hp": 35,
       "type": "bug",
-      "secondary type": "grass",
+      "secondary": "grass",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/46.png"
@@ -488,7 +488,7 @@
       "name": "parasect",
       "hp": 60,
       "type": "bug",
-      "secondary type": "grass",
+      "secondary": "grass",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png"
@@ -499,7 +499,7 @@
       "name": "venonat",
       "hp": 60,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/48.png"
@@ -510,7 +510,7 @@
       "name": "venomoth",
       "hp": 70,
       "type": "bug",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/49.png"
@@ -641,7 +641,7 @@
       "name": "poliwrath",
       "hp": 90,
       "type": "water",
-      "secondary type": "fighting",
+      "secondary": "fighting",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/62.png"
@@ -712,7 +712,7 @@
       "name": "bellsprout",
       "hp": 50,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/69.png"
@@ -723,7 +723,7 @@
       "name": "weepinbell",
       "hp": 65,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/70.png"
@@ -734,7 +734,7 @@
       "name": "victreebel",
       "hp": 80,
       "type": "grass",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/71.png"
@@ -745,7 +745,7 @@
       "name": "tentacool",
       "hp": 40,
       "type": "water",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/72.png"
@@ -756,7 +756,7 @@
       "name": "tentacruel",
       "hp": 80,
       "type": "water",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/73.png"
@@ -767,7 +767,7 @@
       "name": "geodude",
       "hp": 40,
       "type": "rock",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/74.png"
@@ -778,7 +778,7 @@
       "name": "graveler",
       "hp": 55,
       "type": "rock",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/75.png"
@@ -789,7 +789,7 @@
       "name": "golem",
       "hp": 80,
       "type": "rock",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/76.png"
@@ -820,7 +820,7 @@
       "name": "slowpoke",
       "hp": 90,
       "type": "water",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/79.png"
@@ -831,7 +831,7 @@
       "name": "slowbro",
       "hp": 95,
       "type": "water",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/80.png"
@@ -842,7 +842,7 @@
       "name": "magnemite",
       "hp": 25,
       "type": "electric",
-      "secondary type": "steel",
+      "secondary": "steel",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/81.png"
@@ -853,7 +853,7 @@
       "name": "magneton",
       "hp": 50,
       "type": "electric",
-      "secondary type": "steel",
+      "secondary": "steel",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/82.png"
@@ -864,7 +864,7 @@
       "name": "farfetchd",
       "hp": 52,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/83.png"
@@ -875,7 +875,7 @@
       "name": "doduo",
       "hp": 35,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/84.png"
@@ -886,7 +886,7 @@
       "name": "dodrio",
       "hp": 60,
       "type": "normal",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/85.png"
@@ -907,7 +907,7 @@
       "name": "dewgong",
       "hp": 90,
       "type": "water",
-      "secondary type": "ice",
+      "secondary": "ice",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/87.png"
@@ -948,7 +948,7 @@
       "name": "cloyster",
       "hp": 50,
       "type": "water",
-      "secondary type": "ice",
+      "secondary": "ice",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png"
@@ -959,7 +959,7 @@
       "name": "gastly",
       "hp": 30,
       "type": "ghost",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png"
@@ -970,7 +970,7 @@
       "name": "haunter",
       "hp": 45,
       "type": "ghost",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/93.png"
@@ -981,7 +981,7 @@
       "name": "gengar",
       "hp": 60,
       "type": "ghost",
-      "secondary type": "poison",
+      "secondary": "poison",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png"
@@ -992,7 +992,7 @@
       "name": "onix",
       "hp": 35,
       "type": "rock",
-      "secondary type": "ground",
+      "secondary": "ground",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/95.png"
@@ -1063,7 +1063,7 @@
       "name": "exeggcute",
       "hp": 60,
       "type": "grass",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/102.png"
@@ -1074,7 +1074,7 @@
       "name": "exeggutor",
       "hp": 95,
       "type": "grass",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/103.png"
@@ -1155,7 +1155,7 @@
       "name": "rhyhorn",
       "hp": 80,
       "type": "ground",
-      "secondary type": "rock",
+      "secondary": "rock",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/111.png"
@@ -1166,7 +1166,7 @@
       "name": "rhydon",
       "hp": 105,
       "type": "ground",
-      "secondary type": "rock",
+      "secondary": "rock",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/112.png"
@@ -1257,7 +1257,7 @@
       "name": "starmie",
       "hp": 60,
       "type": "water",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/121.png"
@@ -1268,7 +1268,7 @@
       "name": "mr-mime",
       "hp": 40,
       "type": "psychic",
-      "secondary type": "fairy",
+      "secondary": "fairy",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/122.png"
@@ -1279,7 +1279,7 @@
       "name": "scyther",
       "hp": 70,
       "type": "bug",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/123.png"
@@ -1290,7 +1290,7 @@
       "name": "jynx",
       "hp": 65,
       "type": "ice",
-      "secondary type": "psychic",
+      "secondary": "psychic",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/124.png"
@@ -1351,7 +1351,7 @@
       "name": "gyarados",
       "hp": 95,
       "type": "water",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png"
@@ -1362,7 +1362,7 @@
       "name": "lapras",
       "hp": 130,
       "type": "water",
-      "secondary type": "ice",
+      "secondary": "ice",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png"
@@ -1433,7 +1433,7 @@
       "name": "omanyte",
       "hp": 35,
       "type": "rock",
-      "secondary type": "water",
+      "secondary": "water",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/138.png"
@@ -1444,7 +1444,7 @@
       "name": "omastar",
       "hp": 70,
       "type": "rock",
-      "secondary type": "water",
+      "secondary": "water",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/139.png"
@@ -1455,7 +1455,7 @@
       "name": "kabuto",
       "hp": 30,
       "type": "rock",
-      "secondary type": "water",
+      "secondary": "water",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/140.png"
@@ -1466,7 +1466,7 @@
       "name": "kabutops",
       "hp": 60,
       "type": "rock",
-      "secondary type": "water",
+      "secondary": "water",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/141.png"
@@ -1477,7 +1477,7 @@
       "name": "aerodactyl",
       "hp": 80,
       "type": "rock",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png"
@@ -1498,7 +1498,7 @@
       "name": "articuno",
       "hp": 90,
       "type": "ice",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png"
@@ -1509,7 +1509,7 @@
       "name": "zapdos",
       "hp": 90,
       "type": "electric",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/145.png"
@@ -1520,7 +1520,7 @@
       "name": "moltres",
       "hp": 90,
       "type": "fire",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png"
@@ -1551,7 +1551,7 @@
       "name": "dragonite",
       "hp": 91,
       "type": "dragon",
-      "secondary type": "flying",
+      "secondary": "flying",
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png"

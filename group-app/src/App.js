@@ -9,7 +9,7 @@ import RandomButton from './Components/RandomButton';
 import { Switch, Route, Link } from 'react-router-dom';
 
 
-const App = () => {
+function App() {
 
   const [allPokes, setAllPokes] = useState([])
   // const [page, setPage] = useState('/')
@@ -23,23 +23,7 @@ const App = () => {
   return (
     <div>
       <Header />
-<<<<<<< HEAD
-      <PokePage pokes = {allPokes}/>
-=======
-      <NavBar />             
-      {/* <Switch>
-        <Route path='/home'>
-          <Home />
-        </Route>
-        <Route path='/PokePage'>
-          <About />
-        </Route>
-        <Route path='/RandomButton'>
-          <Meow />
-        </Route>
-      </Switch> */}
-      <PokePage pokemons={allPokes}/>
->>>>>>> 1c7e5e5a8777c403e6e9c981d3534bbddb35e6d8
+      <PokePage pokemon = {allPokes}/>
       <PokeForm />
       <RandomButton />
     </div>

@@ -1,10 +1,20 @@
 import React from "react";
+import { useState, useEffect } from 'react';
 import PokeCard from "./PokeCard";
 import {Card} from 'semantic-ui-react';
 
-function PokePage({ pokemons }) {
-    const allOfEm = pokemons.map(pokeObj => {
-        return <PokeCard key={pokemons.id} pokemon={pokeObj} />
+function PokePage({}) {
+    const [allPokes, setAllPokes] = useState([])
+    useEffect(() => {
+        fetch('http://localhost:3000/pokemon')
+          .then((r) => r.json())
+          .then(allPokes => setAllPokes(allPokes))
+      }, []);
+
+    const pokes = allPokes
+    console.log(pokes)
+    const allOfEm = pokes.map(pokeObj => {
+        return <PokeCard key={pokes.id} pokemon={pokeObj} />
     })
     return (
         <Card.Group itemsPerRow={6}>

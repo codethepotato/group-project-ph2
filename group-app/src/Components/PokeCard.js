@@ -8,7 +8,8 @@ function PokeCard({ pokemon }) {
                 <h3>{pokemon.name}</h3>
                 <img src={pokemon.sprites.front} alt='Oops' />
                 <p>{pokemon.type}</p>
-                <p>{pokemon.secondaryType}</p>
+                <p>{pokemon.secondary}</p>
+                
             </div>
             <span>
                 <i className='icon heartbeat red' />

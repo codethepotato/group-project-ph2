@@ -2,15 +2,11 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
-    function handleLinkClick(e) {
-        e.preventDefault()
-        return (e.target.pathname)
-    }
     return (
         <nav>
             <ul>
                 <li>
-                    <NavLink to='/Home'></NavLink>
+                    <NavLink to='/PokeForm'></NavLink>
                 </li>
             </ul>
             <ul>

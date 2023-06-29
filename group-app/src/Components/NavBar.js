@@ -6,6 +6,11 @@ function NavBar() {
         <nav>
             <ul>
                 <li>
+                    <NavLink to='/'>Home</NavLink>
+                </li>
+            </ul>
+            <ul>
+                <li>
                     <NavLink to='/PokeForm'>Poke-Form</NavLink>
                 </li>
             </ul>

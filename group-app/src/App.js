@@ -30,6 +30,7 @@ function App() {
         <Header />
         <NavBar />
         <Routes>
+          <Route path='/'></Route>
           <Route path='/PokeForm' element={<PokeForm addPokemon={addPokemon}/>}></Route>
           <Route path='/PokePage' element={<PokePage pokemons={allPokes} />}></Route>
           <Route path='/RandomButton' element={<RandomButton />}></Route>

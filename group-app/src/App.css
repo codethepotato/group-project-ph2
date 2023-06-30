@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'cursive', 'Brush Script MT';
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #0c7cc6;
+  background-color: #1d6435;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -33,17 +34,47 @@
 
 .card {
   text-align: center;
-  border: grey solid 1px;
+  border: grey solid 2px;
   padding: 1rem;
   width: 15rem;
   height: 18rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52
+  box-shadow: 3px 4px #1d55c6;
 }
 
 .nav-bar{
   overflow: hidden;
   display: flex;
+  justify-content: space-evenly;
   position: sticky;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  background-color: white;
+  border: 2px solid #1d55c6;
+  color:#0c7cc6;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: 'cursive', 'Brush Script MT';
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold
+}
+
+.howdy{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.pokey{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

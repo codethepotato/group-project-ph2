@@ -27,10 +27,11 @@ const RandomPokemonButton = () => {
       {randomPokemon && (
         <div>
           <h2>You found a {randomPokemon.name}!:</h2>
-
+    
           <p>{randomPokemon.type}</p>
           <p>{randomPokemon.secondaryType}</p>
           <p>{randomPokemon.hp}</p>
+          <img src = {randomPokemon.sprites.front}alt = {randomPokemon.name} />
 
 
         </div>

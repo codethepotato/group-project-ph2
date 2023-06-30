@@ -7,7 +7,7 @@ const RandomPokemonButton = () => {
   const handleButtonClick = async () => {
     try {
 
-      const response = await axios.get('db.json');
+      const response = await axios.get('http://localhost:3000/pokemon');
       const pokemonList = response.data;
 
 

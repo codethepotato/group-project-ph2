@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Card, Image, Icon} from 'semantic-ui-react';
+import {Card} from 'semantic-ui-react';
 
 function PokeCard({ pokemon }) {
     const [cardFace, setCardFace] = useState(true)
@@ -8,25 +8,17 @@ function PokeCard({ pokemon }) {
     }
     return (
         <Card>
-            <Image src={cardFace ? pokemon.sprites.front : pokemon.sprites.back} 
-                    onClick={whatever} alt='Oops' wrapped ui={false}/>
-            <Card.Content>
-            <Card.Header>{pokemon.name}</Card.Header>
-            <Card.Meta>
-                <span>{pokemon.secondaryType}</span>
-            </Card.Meta>
-            <Card.Description>{pokemon.type}</Card.Description>
-            </Card.Content>
-            <Card.Content extra>
-                <a>
-                    <Icon className='icon heartbeat red' />{pokemon.hp}
-                </a>
-            </Card.Content>
+            <div>
+                <h3>{pokemon.name}</h3>
+                <img src={cardFace ? pokemon.sprites.front : pokemon.sprites.back} 
+                    onClick={whatever} alt='Oops' />
+                <p>{pokemon.type}</p>
+                <p>{pokemon.secondaryType}</p>
+            </div>
+            <span>❤️{pokemon.hp}</span>
         </Card>
     )
 }
 
 export default PokeCard;
 
-          
-                

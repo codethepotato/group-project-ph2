@@ -3,26 +3,22 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to='/'>Home</NavLink>
-                </li>
+        <nav className='nav-bar'>
+            <ul className="nav-item" >
+                    <NavLink to='/'>
+                    <button type='button'>Home</button></NavLink>
             </ul>
-            <ul>
-                <li>
-                    <NavLink to='/PokeForm'>Poke-Form</NavLink>
-                </li>
+            <ul className="nav-item">
+                    <NavLink to='/PokeForm'>
+                    <button type='button'>Poke-Form</button></NavLink>
             </ul>
-            <ul>
-                <li>
-                    <NavLink to='/PokePage'>Poke-Page</NavLink>
-                </li>
+            <ul className="nav-item">
+                    <NavLink to='/PokePage'>
+                    <button type='button'>Poke-Page</button></NavLink>
             </ul>
-            <ul>
-                <li>
-                    <NavLink to='/RandomButton'>Random Button</NavLink>
-                </li>
+            <ul className="nav-item">
+                    <NavLink to='/RandomButton'>
+                    <button type='button'>Random Button</button></NavLink>
             </ul>
         </nav>
     )

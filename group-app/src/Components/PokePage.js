@@ -8,7 +8,7 @@ function PokePage({ pokemons }) {
         return <PokeCard key={pokeObj.id} pokemon={pokeObj} />
     })
     return (
-        <div>
+        <div id='poke-container'>
             <h1>Gotta Catch Em All </h1>
             <Card.Group itemsPerRow={6}>
                 {allOfEm}

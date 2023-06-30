@@ -1576,6 +1576,39 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
       }
+    },
+    {
+      "name": "chikorita",
+      "hp": "45",
+      "type": "grass",
+      "secondaryType": "",
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/152.png"
+      },
+      "id": 152
+    },
+    {
+      "name": "chikorita",
+      "hp": "45",
+      "type": "grass",
+      "secondaryType": "",
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/152.png"
+      },
+      "id": 153
+    },
+    {
+      "name": "fren",
+      "hp": "some",
+      "type": "he gay",
+      "secondaryType": "",
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/516.png"
+      },
+      "id": 154
     }
   ]
 }

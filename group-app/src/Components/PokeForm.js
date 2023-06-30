@@ -63,16 +63,16 @@ function PokeForm({ addPokemon }) {
                         placeholder='Secondary Type'
                         name='Seconday Type' />
                     <Form.Input
-                        onChange={e => setFront(e.target.value)}
+                        onChange={e => setFront('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'+e.target.value+'.png')}
                         fluid
-                        label="Front Image URL"
-                        placeholder='url'
+                        label="Pokedex #"
+                        placeholder='#'
                         name='frontUrl' />
                     <Form.Input
-                        onChange={e => setBack(e.target.value)}
+                        onChange={e => setBack('https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/'+e.target.value+'.png')}
                         fluid
-                        label="Back Image URL"
-                        placeholder='url'
+                        label="Confirm Pokedex #"
+                        placeholder='#'
                         name='backUrl' />
                 </Form.Group>
                 <Form.Button>Submit!</Form.Button>

@@ -1,34 +1,41 @@
 import React, { useState } from "react";
 import { Form } from 'semantic-ui-react';
 
-function PokeForm() {
+function PokeForm({ addPokemon }) {
     const [name, setName] = useState('')
     const [hp, setHp] = useState('')
     const [type, setType] = useState('')
     const [secondaryType, setSecondaryType] = useState('')
-    cosnt [front, setFront] = useState('')
+    const [front, setFront] = useState('')
     const [back, setBack] = useState('')
+
+    const newPokemon = {
+        name: name,
+        hp: hp,
+        type: type,
+        secondaryType: secondaryType,
+        sprites: {
+            front: front,
+            back: back,
+        }
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        const newPokemon = {
-            name: name,
-            hp: hp,
-            type: type,
-            secondaryType: secondaryType,
-            sprites: {
-                front: front,
-                back: back,
-            }
-        }
+        handlePost(newPokemon)
     }
-    fetch('http://localhost:3000/pokemon', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newPokemon)
-    })
-        .then((r) => r.json())
-        .then(newPokemon => addPokemon(newPokemon))
+
+
+    function handlePost(pokeObj) {
+        fetch('http://localhost:3000/pokemon', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pokeObj)
+        })
+            .then((r) => r.json())
+            .then(newPokemon => addPokemon(newPokemon))
+    }
+
 
     return (
         <div>
